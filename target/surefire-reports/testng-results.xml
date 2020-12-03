@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[is good  test1!!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-12-01T20:28:30Z" name="Suite" finished-at="2020-12-01T20:28:38Z" duration-ms="8073">
+    <groups>
+    </groups>
+    <test started-at="2020-12-01T20:28:30Z" name="Test" finished-at="2020-12-01T20:28:38Z" duration-ms="8073">
+      <class name="testNG1.NewTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG1.NewTest@43df23d3]" started-at="2020-12-01T20:28:30Z" name="beforeClass" finished-at="2020-12-01T20:28:35Z" duration-ms="5654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG1.NewTest@43df23d3]" started-at="2020-12-01T20:28:35Z" name="beforeMethod" finished-at="2020-12-01T20:28:37Z" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testNG1.NewTest@43df23d3]" started-at="2020-12-01T20:28:37Z" name="test1" finished-at="2020-12-01T20:28:37Z" duration-ms="232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[is good  test1!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG1.NewTest@43df23d3]" started-at="2020-12-01T20:28:37Z" name="afterMethod" finished-at="2020-12-01T20:28:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNG1.NewTest@43df23d3]" started-at="2020-12-01T20:28:37Z" name="afterClass" finished-at="2020-12-01T20:28:38Z" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG1.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
